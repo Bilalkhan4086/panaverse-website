@@ -1,0 +1,21 @@
+.linksInDrawer {
+  position: relative;
+  font-weight: 600;
+  color: "#00262b";
+}
+
+.linksLine:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #00262b;
+  display: block;
+  content: "";
+  transition: width 0.5s ease-in-out;
+}
+
+.linksInDrawer:hover:after {
+  width: 100%;
+}

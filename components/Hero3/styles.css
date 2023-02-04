@@ -1,0 +1,22 @@
+.linksHero3 {
+  position: relative;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.linksLine:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  display: block;
+  content: "";
+  transition: width 0.5s ease-in-out;
+}
+
+.linksHero3:hover:after {
+  width: 100%;
+}
