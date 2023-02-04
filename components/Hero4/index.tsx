@@ -34,9 +34,9 @@ const Hero4 = () => {
       align={"center"}
     >
       <Box maxW={700}>
-        {DataForHero4.map((data) => {
+        {DataForHero4.map((data, i) => {
           return (
-            <Box mx={8}>
+            <Box key={i} mx={8}>
               <Heading marginY={4}>{data.title}</Heading>
               <Text marginY={4}>{data.description}</Text>
             </Box>

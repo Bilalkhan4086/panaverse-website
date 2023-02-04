@@ -44,7 +44,8 @@ const Hero2 = () => {
         We Are Proud
       </Heading>
       <Text marginY={8} marginX={4} textAlign={"center"}>
-        You don't have to struggle alone, you've got our assistance and help.
+        You don&apos;t have to struggle alone, you&apos;ve got our assistance
+        and help.
       </Text>
       <Grid
         h="200px"
@@ -57,8 +58,8 @@ const Hero2 = () => {
         gap={3}
         sx={{ marginBottom: 100 }}
       >
-        {dataForStatsCard.map((cardData) => (
-          <GridItem>
+        {dataForStatsCard.map((cardData, i) => (
+          <GridItem key={1}>
             <StatsCard
               title={cardData.title}
               cardColor={cardData.cardColor}

@@ -10,8 +10,9 @@ const Hero5 = () => {
         learn
       </Heading>
       <Text fontSize={"1xl"}>
-        We've added onsite and online learning opportunities to create one of
-        the world's most comprehensive free-to-degree online learning platform.
+        We&apos;ve added onsite and online learning opportunities to create one
+        of the world&apos;s most comprehensive free-to-degree online learning
+        platform.
       </Text>
     </Box>
   );
