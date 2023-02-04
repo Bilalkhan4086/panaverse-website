@@ -66,7 +66,7 @@ const HeaderNavbar = () => {
         <HStack marginX={8} spacing={8}>
           <Link href="https://github.com/panaverse">
             <Image
-              alt="github"
+              alt="github link"
               cursor="pointer"
               src={GitHubIcon.src}
               width={isLessThan925 ? 9 : 10}
