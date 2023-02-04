@@ -59,7 +59,7 @@ const Hero2 = () => {
         sx={{ marginBottom: 100 }}
       >
         {dataForStatsCard.map((cardData, i) => (
-          <GridItem key={1}>
+          <GridItem key={i}>
             <StatsCard
               title={cardData.title}
               cardColor={cardData.cardColor}

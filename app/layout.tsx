@@ -1,3 +1,4 @@
+"use client";
 import HeaderNavbar from "@/components/Header";
 import "./globals.css";
 import { Provider } from "./providers";
