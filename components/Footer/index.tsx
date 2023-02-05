@@ -55,7 +55,7 @@ const Footer = () => {
               {data.linkText.map((text, _i) => {
                 return (
                   <ListItem key={_i} marginY={1}>
-                    <Link className="linksFooter linksLine" href="#">
+                    <Link className={"linksFooter linksLineFooter"} href="#">
                       {text}
                     </Link>
                   </ListItem>
@@ -69,7 +69,7 @@ const Footer = () => {
       <Text py={4} align={"center"}>
         © 2023 Powered By{" "}
         <Link
-          className="linksFooter linksLine"
+          className="linksFooter linksLineFooter"
           href={"https://github.com/Bilalkhan4086"}
         >
           Muhammad Bilal

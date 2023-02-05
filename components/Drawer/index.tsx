@@ -34,20 +34,22 @@ const DrawerComp = ({ isOpen, onClose, btnRef }: any) => {
 
         <DrawerBody>
           <VStack marginY={16} align={"flex-start"} marginX={3} spacing={8}>
-            <Link className="linksInDrawer linksLine" href="/about">
+            <Link className="linksInDrawer linksLineDrawer" href="/about">
               About
             </Link>
-            <Link className="linksInDrawer linksLine" href="/blog">
+            <Link className="linksInDrawer linksLineDrawer" href="/blog">
               Blog
             </Link>
-            <Link className="linksInDrawer linksLine" href="/community">
+            <Link className="linksInDrawer linksLineDrawer" href="/community">
               Community
             </Link>
-            <Link className="linksInDrawer linksLine" href="/web3">
+            <Link className="linksInDrawer linksLineDrawer" href="/web3">
               Web3.0
             </Link>
             <Menu>
-              <MenuButton className="linksInDrawer linksLine">More</MenuButton>
+              <MenuButton className="linksInDrawer linksLineDrawer">
+                More
+              </MenuButton>
               <MenuList>
                 <MenuItem>Useful youtube videos</MenuItem>
                 <MenuItem>Free source and guide</MenuItem>

@@ -85,15 +85,21 @@ const Hero3 = ({ marginTop }: any) => {
                     industry
                   </Link>
                 </ListItem>
-                <ListItem className={"linksHero3 linksLine"}>
+                <ListItem>
                   <ListIcon as={LinkIcon} color="#fff" />
-                  <Link href="https://web3.career/web3-salaries/blockchain-developer">
+                  <Link
+                    className={"linksHero3 linksLine"}
+                    href="https://web3.career/web3-salaries/blockchain-developer"
+                  >
                     Blockchain Developer Salary - Jun 2022
                   </Link>
                 </ListItem>
-                <ListItem className={"linksHero3 linksLine"}>
+                <ListItem>
                   <ListIcon as={LinkIcon} color="#fff" />
-                  <Link href="https://thedefiant.io/web3-soaring-salaries">
+                  <Link
+                    className={"linksHero3 linksLine"}
+                    href="https://thedefiant.io/web3-soaring-salaries"
+                  >
                     Web3 Salaries Soar to $750,000 for Rank-and-File Devs
                   </Link>
                 </ListItem>
@@ -126,9 +132,12 @@ const Hero3 = ({ marginTop }: any) => {
               following two core courses:
             </Text>
             <List spacing={3}>
-              <ListItem className={"linksHero3 linksLine"}>
+              <ListItem>
                 <ListIcon as={LinkIcon} color="#fff" />
-                <Link href="https://github.com/panaverse/panaverse.github.io#quarter-i-core">
+                <Link
+                  className={"linksHero3 linksLine"}
+                  href="https://github.com/panaverse/panaverse.github.io#quarter-i-core"
+                >
                   Quarter I (Core) CS-101: Object-Oriented Programming using
                   TypeScript
                 </Link>

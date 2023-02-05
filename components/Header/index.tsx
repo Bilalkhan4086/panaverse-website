@@ -41,20 +41,20 @@ const HeaderNavbar = () => {
           marginX={16}
           spacing={8}
         >
-          <Link className="links linksLine" href="#">
+          <Link className="links linksLineHeader" href="#">
             About
           </Link>
-          <Link className="links linksLine" href="#">
+          <Link className="links linksLineHeader" href="#">
             Blog
           </Link>
-          <Link className="links linksLine" href="#">
+          <Link className="links linksLineHeader" href="#">
             Community
           </Link>
-          <Link className="links linksLine" href="#">
+          <Link className="links linksLineHeader" href="#">
             Web3.0
           </Link>
           <Menu>
-            <MenuButton className="links linksLine">More</MenuButton>
+            <MenuButton className="links linksLineHeader">More</MenuButton>
             <MenuList>
               <MenuItem>Useful youtube videos</MenuItem>
               <MenuItem>Free source and guide</MenuItem>

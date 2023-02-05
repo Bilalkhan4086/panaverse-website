@@ -3,7 +3,7 @@
   color: #00262b;
 }
 
-.linksLine:after {
+.linksLineHeader:after {
   position: absolute;
   top: 100%;
   left: 0;
